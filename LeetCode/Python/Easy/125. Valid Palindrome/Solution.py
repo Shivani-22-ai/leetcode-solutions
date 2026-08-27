@@ -5,11 +5,8 @@ class Solution:
             if c.isalnum():
                 i.append(c.lower())
         s = ''.join(i)
-        l = 0
-        r = len(s)-1
-        while(l<r):
-            if s[l] != s[r]:
-                return False
-            l+=1
-            r-=1
-        return True
+        rev = s[::-1]
+        if rev == s:
+            return True
+        else:
+            return False
