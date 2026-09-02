@@ -8,8 +8,8 @@
 Two Pointers, String
 
 ### 🚀 Performance
-- **Runtime:** 7 ms
-- **Memory:** 23.4 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
