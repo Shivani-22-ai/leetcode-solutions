@@ -3,6 +3,8 @@ class Solution:
         dis = []
         nums.sort()
         for i in range(len(nums)-3):
+            if i > 0 and nums[i] == nums[i - 1]:
+                continue
             for j in range(i+1,len(nums)-2):
                 for k in range(j+1,len(nums)-1):
                     for l in range(k+1,len(nums)):
