@@ -1,6 +1,6 @@
 # 📝 18. 4Sum (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/4sum/?envType=problem-list-v2&envId=two-pointers)
+🔗 [Problem Link](https://leetcode.com/problems/4sum/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Python-blue)
 
@@ -8,8 +8,8 @@
 Array, Two Pointers, Sorting
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 403 ms
+- **Memory:** 18.8 MB
 
 ---
 
