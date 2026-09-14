@@ -4,9 +4,9 @@ class Solution:
         for i in range(k):
             s += nums[i]
         avg = s/k
-        for i in range(k,len(nums)):
-            s += nums[i]
-            s -= nums[i-k]
+        for r in range(k,len(nums)):
+            s -= nums[r-k]
+            s += nums[r]
             avg = max(avg,s/k)
         return avg
 
