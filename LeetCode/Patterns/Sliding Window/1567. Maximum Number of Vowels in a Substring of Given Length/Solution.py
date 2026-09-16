@@ -1,24 +1,16 @@
 class Solution:
     def maxVowels(self, s: str, k: int) -> int:
-        v = 'aeiou'
-        c = 0
-        window = []
+        v = "aeiou"
+        cv = 0
+        mx = float('-inf')
         for i in range(k):
             if s[i] in v:
-                c+=1
-            window.append(s[i])
-        mx = c
-        
-        for r in range(k,len(s)):
-            if s[r] in v:
-                c+=1
-            if s[r-k] in v:
-                c-=1
-            mx = max(c,mx)
-            window.append(s[r])
-            window.remove(s[r-k])
+                cv+=1
+        mx = max(mx,cv)
+        for i in range(k,len(s)):
+            if s[i-k] in v:
+                cv-=1
+            if s[i] in v:
+                cv+=1
+            mx = max(mx,cv)
         return mx
-             
-
-        
-        
