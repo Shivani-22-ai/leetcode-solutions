@@ -1,7 +1,7 @@
 import math
 class Solution:
     def countPrimes(self, n: int) -> int:
-        if n<=2:
+        if n<2:
             return 0
         primes = [True]*(n+1)
         primes[0] = False
