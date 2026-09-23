@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 1 / 238 (0.4%)
+- **Completed:** 2 / 238 (0.8%)
 
 ---
 
@@ -29,7 +29,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 - [ ] Find the Winning Player in Coin Game
 
 ### 📂 MODULE  2.4: PRIME NUMBERS & RANGE MATH
-- [ ] Count Primes
+- [x] [Count Primes](./Python/Medium/204. Count Primes/)
 - [ ] Super Palindromes
 - [ ] Count Numbers with Unique Digits
 - [ ] Ugly Number
