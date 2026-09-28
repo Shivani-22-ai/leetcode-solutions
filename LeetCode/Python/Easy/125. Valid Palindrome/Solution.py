@@ -2,10 +2,14 @@ class Solution:
     def isPalindrome(self, s: str) -> bool:
         s = s.lower()
         ex = []
-        al = "abcdefghijklmnopqrstuvwxyz1234567890"
         for i in s:
-            if i in al:
+            if i.isalnum():
                 ex.append(i)
-        rev = ex[::-1]
-        return ex == rev
+        i,j = 0,len(ex)-1
+        while(i<=j):
+            if ex[i] != ex[j]:
+                return False
+            i+=1
+            j-=1
+        return True
 
