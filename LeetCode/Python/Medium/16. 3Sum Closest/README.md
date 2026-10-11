@@ -8,8 +8,8 @@
 Array, Two Pointers, Sorting
 
 ### 🚀 Performance
-- **Runtime:** 439 ms
-- **Memory:** 19.5 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
