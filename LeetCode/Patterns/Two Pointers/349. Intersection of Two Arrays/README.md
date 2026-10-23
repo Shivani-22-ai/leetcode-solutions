@@ -8,7 +8,7 @@
 Array, Hash Table, Two Pointers, Binary Search, Sorting
 
 ### 🚀 Performance
-- **Runtime:** 0 ms
+- **Runtime:** 4 ms
 - **Memory:** 19.4 MB
 
 ---
