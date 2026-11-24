@@ -8,8 +8,8 @@
 Array, Math
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 47 ms
+- **Memory:** 19.2 MB
 
 ---
 
@@ -19,7 +19,7 @@ You are given a  **large integer**  represented as an integer array  `digits` , 
 
 Increment the large integer by one and return  *the resulting array of digits* .
 
-OriginalPython3 **Example 1:**
+**Example 1:**
 
 ```
 Input: digits = [1,2,3]
