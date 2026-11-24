@@ -3,10 +3,8 @@ class Solution:
         hm = {}
         for i in range(len(nums)):
             if nums[i] in hm:
-                prev = hm[nums[i]]
-                if abs(prev-i) <= k:
+                if abs(hm[nums[i]]-i) <= k:
                     return True
-                hm[nums[i]] = i
             hm[nums[i]] = i
         return False   
                  
