@@ -1,18 +1,11 @@
-def convert_to_list(i):
-    digit = []
-    while i>0:
-        digit.append(i%10)
-        i = i//10
-    return digit
-
 class Solution:
     def plusOne(self, digits: list[int]) -> list[int]:
-        for i in range(len(digits)):
-            digits[i] = str(digits[i])
-        i = ''.join(digits)
-        i = int(i)
-        i = i + 1
-        digits = convert_to_list(i)
-        return digits[::-1]
-
-        
+        for i in range(len(digits)-1,-1,-1):
+            if digits[i] < 9:
+                digits[i] += 1
+                return digits
+            else:
+                digits[i] = 0
+        if digits[0] == 0:
+            digits.insert(0,1)
+        return digits
