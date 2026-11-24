@@ -1,10 +1,13 @@
 class Solution:
-    def containsNearbyDuplicate(self, nums: list[int], k: int) -> bool:
+    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
+        dic = {}
+
         for i in range(len(nums)):
-            for j in range(i+1,len(nums)):
-                if nums[i] == nums[j]:
-                    if abs(i-j)<=k:
-                        return True
+            if nums[i] in dic:
+                if abs(dic[nums[i]] - i) <= k:
+                    return True
+            dic[nums[i]] = i
+        
         return False
 
         
