@@ -3,14 +3,14 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 16 / 150 (10.7%)
+- **Completed:** 17 / 150 (11.3%)
 
 ---
 
 ## Checklist
 
 ### 📂 Arrays & Hashing
-- [ ] Contains Duplicate
+- [x] [Contains Duplicate](./Python/Easy/217. Contains Duplicate/)
 - [x] [Valid Anagram](./Python/Easy/242. Valid Anagram/)
 - [x] [Two Sum](./Python/Easy/1. Two Sum/)
 - [ ] Group Anagrams
